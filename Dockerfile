@@ -10,7 +10,7 @@ COPY generate-certs.sh /usr/local/bin/generate-certs.sh
 RUN chmod +x /usr/local/bin/generate-certs.sh
 
 # Copy the Nginx configuration files from the proxy-config directory
-COPY proxy-config/ /etc/nginx/conf.d/
+COPY proxy-config /etc/nginx/conf.d/
 
 # Expose port 80 and 443
 EXPOSE 80 443
