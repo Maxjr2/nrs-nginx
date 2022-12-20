@@ -39,7 +39,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            user/app:latest
-            user/app:1.0.0
-            ghcr.io/user/app:latest
-            ghcr.io/user/app:1.0.0
+            maxjr2/nrs-nginx:stable
+            maxjr2/nrs-nginx:0.0.1-stable
+            ghcr.io/maxjr2/nrs-nginx:stable
+            ghcr.io/nrs-nginx:0.0.1-stable
