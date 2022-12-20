@@ -42,4 +42,3 @@ jobs:
             maxjr2/nrs-nginx:stable
             maxjr2/nrs-nginx:0.0.1-stable
             ghcr.io/maxjr2/nrs-nginx:stable
-            ghcr.io/nrs-nginx:0.0.1-stable
