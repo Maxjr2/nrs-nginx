@@ -1,2 +1,2 @@
 # nrs-nginx
-the nginx container for nodered-stack
+the nginx container for nodered-stack.
