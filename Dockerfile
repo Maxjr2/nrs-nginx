@@ -1,4 +1,4 @@
-FROM nginx:alpine-slim
+FROM nginx:1.25-alpine3.18-slim
 
 # Install the openssl package
 RUN apk update && apk add openssl
